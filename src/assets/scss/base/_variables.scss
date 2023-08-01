@@ -1,0 +1,45 @@
+/*
+* Variables
+*/
+
+// *****************
+//  **** Color ****
+// *****************
+
+// Color by Name
+$black: black;
+$white: white;
+$midnight-blue: #22326D;
+$sea-green: #2C9984;
+$yellow-green: #98AA31;
+$slate-blue: #6336BA;
+
+// General Color
+$color-page-bg: #D3CDCF;
+$color-page-link: $slate-blue;
+$color-page-font: $black;
+$color-photo-by-link: $white;
+
+// Body BG Color
+$color-body-bg: linear-gradient(90deg,
+  rgba($color-page-bg, 0.2) 0,
+  rgba($color-page-bg, 1) 30%,
+  rgba($color-page-bg, 1) 70%,
+  rgba($color-page-bg, 0.2) 100%
+);
+
+// Page Header Color
+$color-page-header-bg: $midnight-blue;
+$color-page-header-border: $sea-green;
+
+// Navigation Color
+$color-page-nav-bg: $yellow-green;
+$color-page-nav-link: $black;
+$color-page-nav-link-hover-border: $sea-green;
+
+// Page Main Color
+$color-page-main: #E6E3E4;
+
+// Page Footer Color
+$color-page-footer-bg: $yellow-green;
+$color-page-footer-link: $black;
